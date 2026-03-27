@@ -113,7 +113,7 @@ st.markdown("""
 # ── DATA LOADING & CLEANING ───────────────────────────────────────────────────
 @st.cache_data
 def load_raw():
-    df = pd.read_csv("data/fitlife_ai_survey_dataset.csv")
+    df = pd.read_csv("fitlife_ai_survey_dataset.csv")
     return df
 
 @st.cache_data
